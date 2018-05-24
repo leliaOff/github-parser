@@ -1,0 +1,34 @@
+input {
+    width: 300px;
+    padding: 10px 20px;
+    margin: 40px 0;
+}
+.users-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.users-item {
+    font-size: 20px;
+    width: 300px;
+    color: #333;
+    text-decoration: none;
+    margin: 0 0 10px;
+    cursor: pointer;
+}
+.users-item a {
+    color: #333;
+    text-decoration: none;
+}
+.users-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.users-item label {
+    display: inline-block;
+    vertical-align: middle;
+}
