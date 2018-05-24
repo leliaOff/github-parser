@@ -1,0 +1,6 @@
+<div>
+    <input [(ngModel)]="search" (ngModelChange)="searchOnChange($event)" placeholder="leliaoff" name="search">
+    <ul>
+        <li *ngFor="let user of users"><a routerLink="/user/{{ user.login }}">{{ user.login }}</a></li>
+    </ul>
+</div>
