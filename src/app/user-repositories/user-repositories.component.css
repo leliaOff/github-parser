@@ -1,0 +1,14 @@
+.repos-items {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0 0;
+}
+.repos-item {
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    margin: 0 0 10px;
+}
+.repos-item p {
+    margin: 0 0 10px 20px;
+}

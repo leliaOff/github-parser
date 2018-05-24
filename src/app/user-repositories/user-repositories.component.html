@@ -1,5 +1,9 @@
 <div>
-    <ul>
-        <li *ngFor="let repo of repos">{{ repo.name }}</li>
+    <ul class="repos-items">
+        <li class="repos-item" *ngFor="let repo of repos">
+            <h2>{{ repo.name }}</h2>
+            <p>URL: {{ repo.html_url }}</p>
+            <p *ngIf="repo.description">({{ repo.description }})</p>
+        </li>
     </ul>
 </div>
